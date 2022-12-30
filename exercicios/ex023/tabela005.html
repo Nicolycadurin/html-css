@@ -22,17 +22,35 @@
             border: 1px solid black;
             padding: 8px;
         }
+        .cnome {
+            background-color: lime;
+        }
+        .csexo {
+            background-color: yellow;
+        }
+        .cidade {
+            background-color: orange;
+        }
+        .cprof {
+            background-color: rgb(255, 0, 106);
+        }
     </style>
 </head>
 <body>
     <h1>Exercicio de Tabela</h1>
     <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
-            <th>Nome</th>
-            <th>Sexo</th>
-            <th>Idade</th>
-            <th>Profissao</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissao</th>
         </tr>
         <tr>
             <td>Ana Maria</td>
