@@ -42,8 +42,8 @@ menu > ul {
 menu > ul > li > a {
     display: block;
     padding: 10px;
-    background-color: rgb(87, 87, 87);
     text-decoration: none;
+    background-color: rgb(87, 87, 87);
     text-align: center;
     color: white;
     border-top: 2px solid gray;
@@ -57,7 +57,6 @@ main {
     margin: auto;
     margin-top: 10px;
     padding: 10px;
-    padding-top: 5px;
     border-radius: 10px;
 
 }
