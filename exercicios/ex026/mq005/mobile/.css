@@ -34,7 +34,7 @@ header > h1 {
     color: black;
 }
 menu {
-    display: none;
+    display: block;
 }
 menu > ul {
     list-style-type: none;
