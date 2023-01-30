@@ -33,13 +33,13 @@ header > h1 {
     background-color: white;
     color: black;
 }
-menu {
+nav {
     display: block;
 }
-menu > ul {
+nav > ul {
     list-style-type: none;
 }
-menu > ul > li > a {
+nav > ul > li > a {
     display: block;
     padding: 10px;
     text-decoration: none;
@@ -48,7 +48,7 @@ menu > ul > li > a {
     color: white;
     border-top: 2px solid gray;
 }
-menu > ul > li > a:hover {
+nav > ul > li > a:hover {
     background-color: gray;
 }
 main {
